@@ -4,7 +4,7 @@ import './index.css'
 
 class ClickCounter extends Component {
   state = {count: 0}
-  clickMe = () => {
+   clickMe = () => {
     this.setState(prevState => ({count: prevState + 1}))
   }
   render() {
